@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.env
+*.xlsx
+*.csv
+*.docx
+Output/
+TestOutput/
+TestRefactor/
+~$*

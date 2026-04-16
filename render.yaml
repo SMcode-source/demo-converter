@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fa-rule-converter
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python run_server.py
+    envVars:
+      - key: APP_PASSWORD
+        value: "converter demo"
+      - key: PYTHON_VERSION
+        value: "3.11.9"
